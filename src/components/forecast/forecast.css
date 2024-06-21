@@ -1,0 +1,33 @@
+.forecast {
+    margin-top: 20px;
+  }
+  
+  .forecast-grid {
+    display: flex;
+    justify-content: space-around; 
+    flex-wrap: wrap;
+    margin-left: -10px; 
+    margin-right: -10px; 
+  }
+  
+  .forecast-item {
+    background: linear-gradient(to right, #fcf8f8, #fcf8f8);
+    color: rgb(0, 0, 0);
+    padding: 15px; 
+    border-radius: 8px; 
+    text-align: center;
+    width: 18%; 
+    margin-left: 400px;
+    box-sizing: border-box;
+  }
+  
+  .forecast-item p {
+    margin: 8px 0; 
+  }
+  
+
+  @media (max-width: 768px) {
+    .forecast-item {
+      width: 45%;
+    }
+  }
