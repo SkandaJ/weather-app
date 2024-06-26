@@ -13,7 +13,6 @@ function App() {
   useEffect(() => {
     const body = document.body;
     const hour = new Date().getHours();
-
     if (hour >= 6 && hour < 12) {
       body.style.backgroundColor = 'rgba(255, 223, 186, 0.85)'; 
     } else if (hour >= 12 && hour < 18) {
