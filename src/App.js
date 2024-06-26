@@ -22,6 +22,7 @@ function App() {
     }
   }, []); 
 
+  
   useEffect(() => {
     const getWeatherData = async (lat, lon) => {
       try {
